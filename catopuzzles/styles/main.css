@@ -1,0 +1,14 @@
+@import url('title.css');
+@import url('chooseAndTimePanel.css');
+@import url('gamePlace.css');
+@import url('control.css');
+@import url('chooseLevel.css');
+
+body{
+    background-image: url(../img/background/paws-patterns-creative-footprints-patterns-abstract-backgrounds-dog-footprints-besthqwallpapers.com-1920x1200.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.hide{
+    visibility: hidden;
+}

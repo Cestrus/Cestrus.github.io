@@ -1,0 +1,32 @@
+.controlMain{
+    display: flex;
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    margin: 5px;
+}
+.control, .control_endGame{
+    height: 40px;
+    width: 40px;    
+    border: 1px solid gray;
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    opacity: 0.8;
+}
+.control_play{
+    background-image: url(../img/button/play.svg);
+    background-color: green;    
+}    
+.control_pause{
+    background-image: url(../img/button/pause.svg);
+    background-color: red;
+}
+.control_endGame{
+    background-image: url(../img/button/end-game.svg);
+    background-color: red;
+}
+.control_endGame-press{
+    background-color: rgb(184, 55, 55);
+}

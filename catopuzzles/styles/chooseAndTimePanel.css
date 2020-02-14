@@ -1,0 +1,42 @@
+.choosePanel{
+    font-family: Verdana, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;   
+    opacity: 0.8;
+    color: black;
+    text-shadow: 1px 1px white;
+}
+.choosePanel p{
+    margin: 5px auto;
+}
+.timeCounter{
+    width: 300px;
+    height: 45px;
+    border-radius: 20px;    
+    color: crimson;   
+    background-image: radial-gradient(yellow,black);
+    text-shadow: 1px 1px black;   
+    margin: 0 auto;
+    line-height: 45px;
+}
+.myBtn{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: radial-gradient(yellow, red);
+    margin-left: auto;
+    margin-right: auto;
+}
+.myBtn__press{
+    background-image: radial-gradient(red, yellow);
+}
+.preview, .next{    
+    width: 30px;
+    height: 40px;
+    margin: 5px;
+    background-image: url(../img/button/arrow-left-solid.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.next{background-image: url(../img/button/arrow-right-solid.svg);}

@@ -1,0 +1,20 @@
+.piecesBox--left{
+    grid-area: piecesBox--left;
+    margin-left: 50px;
+} 
+.piecesBox--right{
+    grid-area: piecesBox--right;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+.piecesBox{
+    position: relative;
+    display: flex;
+    width: calc(100% - 50px);
+    height: 100%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.fant{
+    margin: 1px;
+}
