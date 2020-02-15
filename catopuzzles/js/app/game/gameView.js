@@ -258,8 +258,7 @@ export class gameView{
         this.check();
     }
     //проверка совпаденя кусочков с их местами
-    check(){
-       
+    check(){       
         let isRight = false;         
         for(let i=0; i<this.arrPieces.length; i++){
             let piece = document.querySelector(`.pieceID_${i}`);
@@ -269,8 +268,9 @@ export class gameView{
         if(isRight) this.animationFinal();
     }
     animationFinal(){ // финальная анимация
-        this.plate.innerHTML = '';
-        this.plate.innerHTML = ` <img src="${this.img.url}" alt="" height="${this.img.height}" class="img">`;
+        document.querySelectorAll('.pieceBorder').forEach(el=>{
+           el.classList.remove('pieceBorder');
+        });
         this.plate.classList.add('final');
         setTimeout(()=> this.pressBtnEndGame(), 2000);
     }
